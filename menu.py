@@ -1,4 +1,10 @@
-
+open_file
+show_contacts
+save_file
+add_contact
+find_contact
+change_contact
+delete_contact
 
 def menu():
     print('Это меню телефонного справочника:\n'
@@ -16,19 +22,19 @@ while True:
       user_choise = menu()
       match user_choise:
             case 1:
-                  print('Открыть файл')
+                  open_file()
             case 2:
-                  print('Показать контакты')
+                  save_file()
             case 3:
-                  print('Сохранить файл')
+                  show_contacts()
             case 4:
-                  print('Добавить контакт')
+                  add_contact()
             case 5:
-                  print('Найти контакт')
+                  find_contact()
             case 6:
-                  print('Изменить контакт')
+                  change_contact()
             case 7:
-                  print('Удалить контакт')
+                  delete_contact()
             case 8:
                   print('Выход')
-      break
+                  break
