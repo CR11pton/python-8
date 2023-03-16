@@ -1,10 +1,4 @@
-open_file
-show_contacts
-save_file
-add_contact
-find_contact
-change_contact
-delete_contact
+
 
 phone_book = []
 
