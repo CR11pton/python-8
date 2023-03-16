@@ -1,10 +1,10 @@
-open_file
-show_contacts
-save_file
-add_contact
-find_contact
-change_contact
-delete_contact
+from config import open_file
+from config import show_contacts
+from config import save_file
+from config import add_contact
+from config import find_contact
+from config import change_contact
+from config import delete_contact
 
 def menu():
     print('Это меню телефонного справочника:\n'
